@@ -10,15 +10,7 @@ const app = express();
 connectdb();
 
 //middlewares
-app.use(
-  cors({
-    origin: [
-      "https://turf-booking-user.vercel.app/",
-      "https://turf-booking-admin.vercel.app/",
-    ],
-    credentials: true,
-  })
-);
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 //routes
