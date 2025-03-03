@@ -46,7 +46,7 @@ const ImageSlider = () => {
       {images.map((image, index) => (
         <img
           key={index}
-          src={`/public/images/${image}.jpg`}
+          src={`/images/${image}.jpg`}
           alt={`Image ${index + 1}`}
           className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-500 ${
             index === currentImageIndex ? "opacity-100" : "opacity-0"

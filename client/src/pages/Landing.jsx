@@ -52,12 +52,12 @@ const Landing = () => {
         <button
           onClick={() => handleScroll("left")}
           className=" text-white m-1 rounded-full">
-          <img className="w-10" src="/public/images/la.svg" alt="left arrow" />
+          <img className="w-10" src="/images/la.svg" alt="left arrow" />
         </button>
         <button
           onClick={() => handleScroll("right")}
           className="text-white m-1 rounded-full">
-          <img className="w-10" src="/public/images/ra.svg" alt="right arrow" />
+          <img className="w-10" src="/images/ra.svg" alt="right arrow" />
         </button>
       </div>
 
